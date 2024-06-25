@@ -8,9 +8,18 @@ import './App.css';
 
 const App: React.FC = () => {
     return (
-       <>
-
-       </>
+        <Router>
+            <div className="container">
+                <NavBar />
+                <div className="page-content">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/contacts" element={<Contacts />} />
+                    </Routes>
+                </div>
+            </div>
+        </Router>
     );
 };
 
