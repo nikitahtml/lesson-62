@@ -5,7 +5,8 @@ const Contacts: React.FC = () => {
         <div>
             <h1>Contacts Page</h1>
             <p>Contact us through this page.</p>
-            <p>Whatsapp: <span>+966708840250</span></p>
+            <p>Whatsapp: <span className="sp">+312979888</span></p>
+            <p>Telegram: <span >https://t.me/MegalineKgBot</span></p>
         </div>
     );
 };
